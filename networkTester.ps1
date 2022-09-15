@@ -55,7 +55,7 @@ function selectorMenu{
         localTestConnection
     }
     elseif ($testType -eq 2) {
-        testConnection -testType "WAN" -ipAddress www.google.ie
+        testConnection -testType "WAN" -ipAddress www.google.com
     }
     elseif ($testType -eq 3) {
         $ipType = Read-Host -Prompt 'Manually enter a valid IP here'
